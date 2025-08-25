@@ -99,7 +99,7 @@ $$\text{\Huge{$ Δf = \frac{v}{2L} $}}$$
 
 And if we match $f_c + Δf$ with the frequency of one of our harmonics, $n * f_c$, they'll add up constructively.
 Below you can see that in action, with the image on the left being a signal without a reflection adding to it, and the image on the right being a signal with reflection adding to it:
-[![No reflection](https://i.postimg.cc/8zYmcv66/916-MHz-no-reflection-2.png)](https://postimg.cc/rDSrYKgV)  |  [![reflection](https://i.postimg.cc/R0nQH07b/916-MHz-with-reflection-b.png)](https://postimg.cc/JyMkwMdb)
+[![no reflection](https://i.postimg.cc/fbKW5cf3/916-MHz-no-reflection-2b.png)](https://postimg.cc/rdDLwtbc)  |  [![reflection](https://i.postimg.cc/R0nQH07b/916-MHz-with-reflection-b.png)](https://postimg.cc/JyMkwMdb)
 
 # Conclusion
 
