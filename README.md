@@ -87,7 +87,11 @@ More precise values require more precise tuning.
 The signal is there, but now we face another problem: though it is noticable, it is weak, and as it stands, this signal couldn't travel more than a few meters in my testing.
 This makes sense, **but we can make it stronger.**
 
-$$\text{\Huge{$ P_r ≈ \frac{((2 pi L)/	λ)^2}{6pi} * \frac{V^2}{R_s} $}}$$
+The power transmitted is proportional to the ratio of wavelength and transmission line length.
+
+$$\text{\Huge{$ P_r ≈ \frac{((2 \pi L)/	λ)^2}{6 \pi} * \frac{V^2}{R_s} $}}$$
+
+We can optimize for transmission line length in another way though...
 
 ## (3) Reflections
 
@@ -95,6 +99,7 @@ The traces, pin, and wire attached to the pin act as a **transmission line** for
 If we leave our 'antenna' open, with its impedance approaching infinity, we will ensure that at least a part of our wave will be reflected back through the wire.
 Now, here's the trick: If we make the length of the transmission line (by attaching a conductive material to our pin; a wire) exactly right, so that the peak of the reflected wave travels through the line, reflects back, and its peak exits **at the same time as our original signal, or one of its harmonics' peaks, they'll add up.**
 We can get the spacing ($Δf$; the difference between $f_c$ and the frequency of the reflected wave) with:
+
 $$\text{\Huge{$ Δf = \frac{v}{2L} $}}$$
 
 And if we match $f_c + Δf$ with the frequency of one of our harmonics, $n * f_c$, they'll add up constructively.
