@@ -108,4 +108,4 @@ Below you can see that, with the image on the left being a signal without a refl
 
 # Conclusion
 
-Combining the above mentioned effects, I have been able to **get the signal to reliably travel up to 100 meters.** I will add more features to this little program as time goes on, the goal is to send LoRa packets with it! I hope you like it!
+Combining the above mentioned effects, I have been able to **get the signal to reliably under 100 meters.** I will add more features to this little program as time goes on, the goal is to send LoRa packets with it! I hope you like it!
